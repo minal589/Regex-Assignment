@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear ;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+body{
+    background: #f7f7f7;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: orange;
+}
+header .logo i{
+    padding-right: 5rem;
+    color: red;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: red;
+}
+.carosal_above{
+	position: absolute;
+	height: 100%;
+	width: 40%;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, .4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carosal_text{
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	background-color: rgba(0, 0, 0, .6);
+	z-index: 1;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;  
+	padding-top: 20px;  
+}
+.carosal_text h1{
+	font-size: 3rem;
+	color: orange;
+	object-fit: cover;
+}
+
+.carosal_text h2{
+	color: white;
+	object-fit: cover;
+    text-align: center;
+}
+.btn{
+    padding: 1rem 1rem;
+    border: 0.2rem solid red;
+    color: red;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: white;
+    background-color: red;
+    border-radius: .1rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem; 
+    font-weight: bold;
+
+
+}
+.fas, .far{
+	color: #e68a00;
+}
+.service .h1{
+    text-align: center;
+    color: red;
+
+}
+.service .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.service .box-container .box{
+    width: 20rem;
+    height: 30rem;
+    flex: 1 1 40rem;
+    border: 0.2rem solid white;
+    color: black;
+    text-align: center;
+    border-radius: 0.2rem;
+    position: relative;
+    font-size: 1.5rem;
+    gap: 50px;
+}
+
+.service .box-container .box h1{
+    font-size: 2.5rem;
+    color: red;
+}
+.top-buffer { 
+	margin-top:40px; 
+	margin-left: 80px;
+}
+
+.multiple-items{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.tesimonila_card{
+border-radius: 15px 50px; 
+width: 18rem;
+}
+
+.tesimonila_text {
+
+	width: 18rem;
+	text-align: center;
+}
+
+.pricing_card{
+	border-top: 2px solid red;
+}
+
+.ourteam{
+	display: flex;
+	justify-content: space-between;
+}
+.ourteam a{
+	border: 1px solid black;
+}
+
+.ourteam_card{
+	border: 2px solid #e68a00;
+}
+
+.hot-badge::after {
+    content: 'BEST SELLER';
+    position: absolute;
+    background: linear-gradient(to right, #ffd400, #ffbc00);
+    padding: 7px 120px;
+    box-shadow: 0 0 5px 3px #715e006e;
+    top: 20px;
+    right: -115px;
+    color: #5d4d00;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.pb-7 {
+	padding-bottom: 7em;
+}
+
+
+
+
+
+
+
+	
